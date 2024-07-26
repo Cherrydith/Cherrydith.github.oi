@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portafolio web</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="contenedor nav">
+            <a href="#stack">Stack</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#Informacion">Sobre mi</a>
+        </nav>
+    </header>
+    <main class="main contenedor grid grid-seccion">
+        <div class="nombre">
+            <h1>Hola!,<br> soy Edith Escalona</h1>
+            <h2>Programadora <span>Frontend</span   ></h2>
+        </div>
+        <div class="imagen grid-seccion">
+            <img src="./img/imagen.png" alt="Una mujer" class="imagen-nav">
+        </div>
+    </main>
+    <section id="stack" class="stack">
+        <div class="stack-contenedor contenedor grid">
+            <div class="card">
+                <h3 class="card-title">stack principal</h3>  
+                <div class="contenedor-iconos">
+                    <div class="card-icono"><i class='bx bxl-html5'></i></div>
+                    <div class="card-icono"><i class='bx bxl-css3'></i></div>
+                    <div class="card-icono"><i class='bx bxl-javascript' ></i></div>
+                    <div class="card-icono"><i class='bx bxl-php' ></i></div>
+                    <div class="card-icono"><i class='bx bxl-postgresql'></i></div>
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="card-title">Otras tecnologias</h3>
+                <div class="contenedor-iconos">
+                    <div class="card-icono"><i class='bx bxl-git' ></i></div>
+                    <div class="card-icono"><i class='bx bxl-github' ></i></div>
+                    <div class="card-icono"><i class='bx bxl-sass' ></i></div>
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="card-title">En desarrollo</h3>
+                <div class="contenedor-iconos">
+                    <div class="card-icono"><i class='bx bxl-typescript' ></i></div>
+                    <div class="card-icono"><i class='bx bxl-react' ></i></div>
+                    <div class="card-icono"><i class='bx bxl-angular' ></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="proyectos" class="proyectos">
+            <h2>Proyectos</h2>
+            <div class="contenedor-proyectos grid contenedor">
+                <a class="card proyecto">
+                    <img src="./img/Proyecto-escuela1.jpg" alt="">
+                    <div class="proyecto-informacion">
+                        <div>
+                            <h3 class="card-titile">Pagina de colegio</h3>
+                            <p>Desarrollo Fullstack</p>
+                        </div>
+                        <div class="proyecto-iconos">
+                            <div class="card-icono"><i class='bx bxl-html5'></i></div>
+                            <div class="card-icono"><i class='bx bxl-css3'></i></div>
+                            <div class="card-icono"><i class='bx bxl-javascript' ></i></div>
+                            <div class="card-icono"><i class='bx bxl-php' ></i></div>
+                            <div class="card-icono"><i class='bx bxl-postgresql'></i></div>
+                        </div>
+                    </div>
+                </a>
+                <a class="card proyecto">
+                    <img src="./img/Proyecto2.jpg" alt="">
+                    <div class="proyecto-informacion">
+                        <div>
+                            <h3 class="card-titile">Pagina de ventas</h3>
+                            <p>Desarrollo Fullstack</p>
+                        </div>
+                        <div class="proyecto-iconos">
+                            <div class="card-icono"><i class='bx bxl-html5'></i></div>
+                            <div class="card-icono"><i class='bx bxl-html5'></i></div>
+                            <div class="card-icono"><i class='bx bxl-html5'></i></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    </section>
+    <section id="Informacion" class="informacion">
+        <h2>Sobre mi</h2>
+        <div class="contenedor-informacion contenedor grid">
+            <div class="contenedor-grid">
+                <p>Hola soy Edith una desarrolladora de frontend me gusta ser creativa, diseñar y la música.  Me gusta  aprender nuevas tecnologías constantemente. Mi objetivo es crear experiencias web memorables y significativas, siempre estoy abierta a colaboraciones innovadoras y oportunidades de crecimiento profesional en el dinámico mundo del desarrollo web.</p>
+            </div>
+            <div class="contenedor-grid grid">
+                <div class="titulos">
+                    <p>Edad</p>
+                    <p>Nacionalidad</p>
+                    <p>Idiomas</p>
+                </div>
+                <div class="respuestas">
+                    <p>21</p>
+                    <p>Venezolana</p>
+                    <p>Español nativo<br>Ingles A2</p>
+                </div>
+            </div>
+            <div class="contenedor-grid datos-contacto">
+                <h3>Datos de contacto</h3>
+                <a href="https://wa.me/qr/3FFQGKOPBCE7O1" target="_blank"><p><i class='bx bxl-whatsapp' ></i> +58 4125126868</p></a>
+                <a href="#"><p><i class='bx bxl-gmail' ></i> edithescalona2003@gmail.com</p></a>
+                <a href="https://www.instagram.com/oblivion.th/" target="_blank"><p><i class='bx bxl-instagram' ></i> Cherry.th</p></a>
+            </div>
+        </div>
+        
+    </section>
+    <section class="contactame contenedor">
+        <h2>Contactame</h2>
+        <form action="" class="form ">
+            <div class="contenedor-input grid">
+                <div class="input">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Tu nombre">
+                </div>
+                <div class="input">
+                    <label for="telefono">Telefono</label>
+                    <input type="tell" id="telefono" placeholder="Tu telefono">
+                </div>
+                <div class="input">
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" placeholder="Tu correo">
+                </div>
+                <div class="input">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="" id="" cols="30" rows="10" name="mensaje" id=""></textarea>
+                    <input type="Submit" value="Enviar" class="enviar">
+                </div>
+            </div>
+            
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>
